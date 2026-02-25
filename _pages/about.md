@@ -1,15 +1,13 @@
 ---
 permalink: /
-title: "Ramazan Bora"
+title: "Home"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Economics Ph.D. candidate in empirical economics and political economy at the University of Queensland. My research uses open data with high frequency in space, time, and behavior to study institutions, policy, and decision-making, combining measurement construction (administrative boundaries, remote sensing, behavioral logs) with causal designs (contiguous-border DiD, event studies/DiD, high-dimensional fixed effects).
-
-I have experience delivering end-to-end empirical pipelines and policy-facing data products for academia and government.
+Ramazan Bora is an Economics Ph.D. candidate at the University of Queensland working in empirical economics and political economy. His research uses open data with high frequency in space, time, and behavior to study institutions, policy, and decision-making.
 
 Research Interests
 ======
@@ -18,16 +16,14 @@ Research Interests
 - Applied economics
 - Computational social science
 
-Methods
+Latest Research
 ======
-- Causal inference
-- GIS
-- Remote sensing and night lights
-- Administrative data
-- Large-scale behavioral data
-- Open-source data
+**A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey**  
+Studies the 2012 Turkish metropolitan municipality reform as a centralization shock for thousands of villages. Uses reconstructed administrative boundaries, VIIRS night lights, population outcomes, and distance-to-center measures in a contiguous-border DiD design.
 
-Contact
+Quick Links
 ======
-- Email: [r.bora@uq.edu.au](mailto:r.bora@uq.edu.au)
-- Location: Brisbane, QLD, Australia
+- [Research](/research/)
+- [CV](/cv/)
+- [Teaching](/teaching/)
+- [Contact](/contact/)
