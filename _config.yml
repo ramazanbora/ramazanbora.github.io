@@ -23,7 +23,7 @@ repository               : "ramazanbora/ramazanbora.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "ramazan-bora.jpg"
   name             : "Ramazan Bora"
   pronouns         : # example: "she/her"  
   bio              : "Economics Ph.D. candidate (UQ) working on empirical economics and political economy."
