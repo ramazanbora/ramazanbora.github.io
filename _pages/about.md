@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Ramazan Bora is an Economics PhD candidate at the University of Queensland (thesis under examination; expected completion in 2026). His research sits at the intersection of empirical economics, political economy, and computational social science.
+I am an Economics PhD candidate at the University of Queensland (thesis under examination; expected completion in 2026). My research sits at the intersection of empirical economics, political economy, and computational social science.
 
-His work emphasizes data-intensive, collaborative empirical research: building original datasets from fragmented sources, designing transparent identification strategies, and delivering policy-facing outputs for academic and government stakeholders.
+My work emphasizes data-intensive, collaborative empirical research: building original datasets from fragmented sources, designing transparent identification strategies, and delivering policy-facing outputs for academic and government stakeholders. Across my thesis, I ask a common question: what becomes visible when measurement is made more granular? Across institutions, politics, and cognition, I find that finer spatial, temporal, and behavioral data can overturn coarse-data conclusions and generate new policy-relevant insight.
 
 Research Interests
 ======
@@ -27,7 +27,6 @@ Current Focus
 Quick Links
 ======
 - [Research](/research/)
-- [Thesis](/thesis/)
 - [CV](/cv/)
 - [Teaching](/teaching/)
 - [Contact](/contact/)
