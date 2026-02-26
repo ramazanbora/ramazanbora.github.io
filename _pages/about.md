@@ -11,9 +11,12 @@ Ramazan Bora is an Economics PhD candidate at the University of Queensland (thes
 
 His work emphasizes data-intensive, collaborative empirical research: building original datasets from fragmented sources, designing transparent identification strategies, and delivering policy-facing outputs for academic and government stakeholders.
 
-Research Agenda
+Research Interests
 ======
-The core theme of his work is **granularity in time, space, and behavior**. Using open data and reproducible empirical pipelines, he studies how institutions, governance, and human decision-making can look different when data are measured at finer resolution.
+- Political economy
+- Institutions and development
+- Applied economics
+- Computational social science
 
 Current Focus
 ======
@@ -28,11 +31,3 @@ Quick Links
 - [CV](/cv/)
 - [Teaching](/teaching/)
 - [Contact](/contact/)
-
-Documents
-======
-- [CV source (LaTeX)](/files/cv_final.tex)
-- [Thesis abstract (text)](/files/BORA_ramazan_PhD_Thesis_Title_Page_Abstract.txt)
-- [Thesis introduction draft (text)](/files/thesis_intro.txt)
-- [Chapter abstracts (text)](/files/chapter_abstracts.txt)
-- [Monash cover letter (text)](/files/Ramazan_Bora_Monash_cover_letter.txt)

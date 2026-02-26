@@ -26,7 +26,7 @@ Education
 ======
 - **University of Queensland**, Brisbane, Australia.  
   PhD in Economics (thesis under examination; expected completion 2026), 2021-present.
-- **Penn State University and Ibn Haldun University**, USA and Turkey.  
+- **Penn State University and Ibn Haldun University.**  
   Doctoral studies in Economics, 2010-2021.
 - **Koc University**, Istanbul, Turkey.  
   MA in Economics (GPA: 3.92/4.0), 2008-2010.
