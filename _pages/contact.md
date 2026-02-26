@@ -14,5 +14,5 @@ Contact
 
 Profiles
 ======
-- GitHub: [ramazanbora](https://github.com/ramazanbora)
+- LinkedIn: [ramazanbora](http://www.linkedin.com/in/ramazanbora)
 - ORCID: [0000-0001-6558-1668](https://orcid.org/0000-0001-6558-1668)

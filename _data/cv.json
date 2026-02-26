@@ -19,9 +19,9 @@
         "url": "https://orcid.org/0000-0001-6558-1668"
       },
       {
-        "network": "GitHub",
+        "network": "LinkedIn",
         "username": "ramazanbora",
-        "url": "https://github.com/ramazanbora"
+        "url": "http://www.linkedin.com/in/ramazanbora"
       }
     ]
   },
@@ -158,11 +158,11 @@
   "interests": [],
   "references": [
     {
-      "name": "Prof. Alicia Rambaldi",
+      "name": "Prof. Alicia Rambaldi (Principal Advisor)",
       "reference": "a.rambaldi@uq.edu.au"
     },
     {
-      "name": "Dr. Haishan Yuan",
+      "name": "Dr. Haishan Yuan (Associate Advisor)",
       "reference": "h.yuan@uq.edu.au"
     },
     {

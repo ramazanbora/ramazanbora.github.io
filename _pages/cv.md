@@ -106,6 +106,6 @@ Technical Skills
 
 References
 ======
-- **Prof. Alicia Rambaldi** (Supervisor), University of Queensland
-- **Dr. Haishan Yuan** (Supervisor), University of Queensland
+- **Prof. Alicia Rambaldi** (Principal Advisor), University of Queensland
+- **Dr. Haishan Yuan** (Associate Advisor), University of Queensland
 - **Dr. Pia Wohland** (Project Lead, QGSO), University of Queensland
