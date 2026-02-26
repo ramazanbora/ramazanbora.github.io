@@ -5,24 +5,27 @@ permalink: /research/
 author_profile: true
 ---
 
-Working Paper
+Job Market Paper
 ======
 
-1. **Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics**  
+1. **[A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey](/research/hinterland-abstract/)**  
+This paper examines the causal effects of Turkey's 2012 metropolitan municipality reform (Law No. 6360) on rural development using a contiguous-border difference-in-differences design and newly constructed village-level boundary data.
+
+Working Papers
+======
+
+1. **[Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics](/research/birthplace-abstract/)**  
 *UQ School of Economics Discussion Paper Series, 2025.*  
-This paper replicates earlier birthplace-favoritism findings in a fully open-source framework and extends analysis to modern VIIRS data (2012-2025). Monthly lights reveal immediate effects at leader accession, persistence after departure, and a COVID-era surge that is strongest in weaker democracies.
+This paper extends the birthplace favoritism literature using a fully open-source framework and modern VIIRS night lights, with new evidence on immediate transition effects and crisis dynamics.
 
 Works in Progress
 ======
 
-1. **A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey**  
-This project studies Turkey's 2012 metropolitan reform using reconstructed village-level administrative micro-polygons, VIIRS lights, population registries, and distance-to-center measures. Border-based DiD estimates show stronger post-reform luminosity and population retention in treated villages, with important heterogeneity by distance and metropolitan type.
+1. **[Measuring Cognition at Scale: The Association Between Ramadan Exposure and Chess Performance](/research/ramadan-chess-abstract/)**  
+This paper builds a move-level panel of approximately 16 million observations from 800,000 online chess games and estimates the association between Ramadan exposure and decision quality, move speed, and intraday behavior.
 
-2. **Measuring Cognition at Scale: The Association Between Ramadan Exposure and Chess Performance**  
-Using 16 million moves from about 800,000 chess games, this paper benchmarks choices with Stockfish and estimates Ramadan exposure effects in a DiD framework with player and period fixed effects. Results suggest fewer errors, faster decisions, and stronger nocturnal reallocation, especially among lower-skill and lower-experience players.
-
-3. **A Novel Integerisation Procedure for Population Data** (with P. Wohland-Jakhar)  
-Develops an integerisation method for IPF-based small-area estimation that reconciles integer and marginal constraints in sparse settings, motivated by Indigenous population estimation in Queensland.
+2. **A Novel Integerisation Procedure for Population Data** (with P. Wohland-Jakhar)  
+Develops an integerisation method for IPF-based small-area estimation that reconciles integer and marginal constraints in sparse geographies, motivated by Indigenous population estimation in Queensland.
 
 Conference Presentations
 ======

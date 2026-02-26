@@ -11,16 +11,16 @@ redirect_from:
 
 Download
 ======
-- [CV source file (LaTeX)]({{ base_path }}/files/cv_final.tex)
+- [CV (PDF)]({{ base_path }}/files/cv_final.pdf)
 
 Profile
 ======
-Economics PhD candidate in empirical economics and political economy, with a research agenda centered on using granular open data across space, time, and behavior to study institutions, governance, and decision-making.
+Economics PhD candidate in empirical economics and political economy, with a research agenda centred on using granular open data across space, time, and behaviour to study institutions, governance, and decision-making. My work combines original data construction from fragmented administrative, geospatial, remote-sensing, and behavioural sources with rigorous quantitative methods, including difference-in-differences, event studies, and high-dimensional fixed effects.
 
 Research Interests and Methods
 ======
 - **Fields:** Political economy; institutions and governance; applied economics; computational social science.
-- **Methods:** Causal inference; panel data econometrics; GIS; remote sensing and night lights; administrative data; large-scale behavioral data; algorithmic benchmarking.
+- **Methods:** Causal inference; panel data econometrics; GIS; remote sensing and night lights; administrative data; large-scale behavioural data; algorithmic benchmarking; open-source data.
 
 Education
 ======
@@ -29,9 +29,25 @@ Education
 - **Penn State University and Ibn Haldun University.**  
   Doctoral studies in Economics, 2010-2021.
 - **Koc University**, Istanbul, Turkey.  
-  MA in Economics (GPA: 3.92/4.0), 2008-2010.
+  MA in Economics, 2008-2010.
 - **Koc University**, Istanbul, Turkey.  
-  BSc in Electrical and Electronics Engineering (GPA: 3.48/4.0), 2003-2008.
+  BSc in Electrical and Electronics Engineering, 2003-2008.
+
+Research
+======
+
+Job Market Paper
+======
+- **[A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey](/research/hinterland-abstract/)**
+
+Working Papers
+======
+- **[Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics](/research/birthplace-abstract/)**
+
+Works in Progress
+======
+- **[Measuring Cognition at Scale: The Association Between Ramadan Exposure and Chess Performance](/research/ramadan-chess-abstract/)**
+- **A Novel Integerisation Procedure for Population Data** (with P. Wohland-Jakhar)
 
 Research and Applied Data Experience
 ======
@@ -50,7 +66,7 @@ Research and Applied Data Experience
   - Managed acquisition, cleaning, harmonisation, and validation of heterogeneous international datasets to support stable updates.
 
 - **Real Estate and Transport Project (Prof. Alicia Rambaldi)**, Brisbane.  
-  *Senior Research Assistant*, 2021-2022.
+  *Senior Research Assistant*, 2025-present.
   - Acquired and cleaned large administrative property transaction data in collaboration with the NSW Valuer General.
   - Integrated sales records with GTFS transport networks and GIS layers, constructing accessibility measures for econometric modelling.
   - Produced distance-weighted and route-diversity indices to quantify public transport access in commercial property analysis.
@@ -86,10 +102,10 @@ Technical Skills
 ======
 - **Programming:** R, Python, Stata, MATLAB; working knowledge of SQL.
 - **Methods and Data:** Causal inference; panel data analysis; administrative data; GIS; remote sensing; data scraping; algorithmic benchmarking.
-- **Tools:** Git; Google Earth Engine; AWS; LaTeX.
+- **Tools:** Google Earth Engine; AWS; LaTeX.
 
 References
 ======
-- **Prof. Alicia Rambaldi** (Supervisor), University of Queensland - [a.rambaldi@uq.edu.au](mailto:a.rambaldi@uq.edu.au)
-- **Dr. Haishan Yuan** (Supervisor), University of Queensland - [h.yuan@uq.edu.au](mailto:h.yuan@uq.edu.au)
-- **Dr. Pia Wohland** (Project Lead, QGSO), University of Queensland - [pia.wohland@uq.edu.au](mailto:pia.wohland@uq.edu.au)
+- **Prof. Alicia Rambaldi** (Supervisor), University of Queensland
+- **Dr. Haishan Yuan** (Supervisor), University of Queensland
+- **Dr. Pia Wohland** (Project Lead, QGSO), University of Queensland
