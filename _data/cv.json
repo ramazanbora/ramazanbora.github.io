@@ -2,9 +2,9 @@
   "basics": {
     "name": "Ramazan Bora",
     "email": "r.bora@uq.edu.au",
-    "phone": "",
-    "website": "https://ramazanbora.github.io",
-    "summary": "Economics Ph.D. candidate (University of Queensland) working on empirical economics and political economy.",
+    "phone": "+61 421 099 850",
+    "website": "https://ramazanbora.com",
+    "summary": "Economics PhD candidate in empirical economics and political economy focused on granular open data across space, time, and behavior.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -14,129 +14,237 @@
     },
     "profiles": [
       {
+        "network": "ORCID",
+        "username": "0000-0001-6558-1668",
+        "url": "https://orcid.org/0000-0001-6558-1668"
+      },
+      {
         "network": "GitHub",
         "username": "ramazanbora",
         "url": "https://github.com/ramazanbora"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Queensland Centre for Population Research (School of the Environment, UQ)",
+      "position": "Senior Research Assistant",
+      "website": "",
+      "startDate": "2022",
+      "endDate": "2025",
+      "summary": "Developed reproducible demographic estimation pipelines and methods for small-area Indigenous population estimation.",
+      "highlights": []
+    },
+    {
+      "company": "UQ International Comparisons Database (UQICD)",
+      "position": "Senior Research Assistant",
+      "website": "https://uqicd.economics.uq.edu.au",
+      "startDate": "2022",
+      "endDate": "2025",
+      "summary": "Refactored and documented core R workflows and built reproducible comparative data pipelines.",
+      "highlights": []
+    },
+    {
+      "company": "Real Estate and Transport Project (Prof. Alicia Rambaldi)",
+      "position": "Senior Research Assistant",
+      "website": "",
+      "startDate": "2021",
+      "endDate": "2022",
+      "summary": "Integrated property transaction data with GIS and transport networks for econometric analysis.",
+      "highlights": []
+    },
+    {
+      "company": "Ibn Haldun University",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2018",
+      "endDate": "2021",
+      "summary": "Built social media text analytics and sentiment workflows.",
+      "highlights": []
+    },
+    {
+      "company": "Penn State University",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2010",
+      "endDate": "2017",
+      "summary": "Developed data tools and supported theory research in economics.",
+      "highlights": []
+    },
+    {
+      "company": "Koc University (Engineering)",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2004",
+      "endDate": "2008",
+      "summary": "Applied pattern recognition and signal-processing methods.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "University of Queensland",
+      "area": "PhD in Economics",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2021",
+      "endDate": "present",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Penn State University and Ibn Haldun University",
+      "area": "Doctoral studies in Economics",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "startDate": "2010",
+      "endDate": "2021",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
+      "institution": "Koc University",
+      "area": "MA in Economics",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "startDate": "2008",
+      "endDate": "2010",
+      "gpa": "3.92/4.0",
+      "courses": []
+    },
+    {
+      "institution": "Koc University",
+      "area": "BSc in Electrical and Electronics Engineering",
+      "studyType": "",
+      "startDate": "2003",
+      "endDate": "2008",
+      "gpa": "3.48/4.0",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "R",
+        "Python",
+        "Stata",
+        "MATLAB",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Methods and Data",
+      "level": "",
+      "keywords": [
+        "Causal inference",
+        "Panel data econometrics",
+        "GIS",
+        "Remote sensing",
+        "Administrative data",
+        "Algorithmic benchmarking"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "Git",
+        "Google Earth Engine",
+        "AWS",
+        "LaTeX"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
-  "references": [],
+  "references": [
+    {
+      "name": "Prof. Alicia Rambaldi",
+      "reference": "a.rambaldi@uq.edu.au"
+    },
+    {
+      "name": "Dr. Haishan Yuan",
+      "reference": "h.yuan@uq.edu.au"
+    },
+    {
+      "name": "Dr. Pia Wohland",
+      "reference": "pia.wohland@uq.edu.au"
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics",
+      "publisher": "UQ School of Economics Discussion Paper Series",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Replication and extension study using open-source data and VIIRS night lights with crisis dynamics analysis."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey",
+      "publisher": "Work in progress",
+      "releaseDate": "",
+      "website": "",
+      "summary": "Border-based DiD analysis of Turkey's 2012 metropolitan reform with newly reconstructed village-level data."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Measuring Cognition at Scale: The Association Between Ramadan Exposure and Chess Performance",
+      "publisher": "Work in progress",
+      "releaseDate": "",
+      "website": "",
+      "summary": "Move-level analysis of 16 million chess observations using Stockfish benchmarking and DiD identification."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "name": "A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey",
+      "event": "38th Annual PhD Conference in Economics and Business, ANU",
+      "date": "2024-11",
+      "location": "Canberra, Australia",
       "description": ""
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
+      "name": "A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey",
+      "event": "Society for Institutional and Organizational Economics (SIOE), UNSW",
+      "date": "2025-08",
+      "location": "Sydney, Australia",
       "description": ""
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
+      "name": "Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics",
+      "event": "UQ Applied Micro Day, UQ",
+      "date": "2025-09",
+      "location": "Brisbane, Australia",
       "description": ""
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
+      "course": "Mathematical Economics; Tools of Economic Analysis",
+      "institution": "University of Queensland",
+      "date": "2021",
+      "role": "Senior Tutor",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "Advanced Microeconomics (MA); Strategy (MA); Managerial Economics; Mathematical Economics",
+      "institution": "University of Queensland",
+      "date": "2021",
+      "role": "Tutor",
+      "description": ""
+    },
+    {
+      "course": "PhD-level Microeconomics and Macroeconomics",
+      "institution": "Ibn Haldun University",
+      "date": "2018",
+      "role": "Teaching Assistant",
+      "description": ""
+    },
+    {
+      "course": "Intermediate Microeconomics; Introductory Econometrics",
+      "institution": "Penn State University",
+      "date": "2010",
+      "role": "Instructor of Record",
       "description": ""
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }

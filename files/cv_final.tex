@@ -1,0 +1,199 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=0.75in,top=0.75in,right=0.75in,bottom=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\definecolor{primary}{RGB}{0, 51, 102}
+\definecolor{secondary}{RGB}{90, 90, 90}
+
+\titleformat{\section}{\Large\bfseries\color{primary}}{}{0em}{}[\titlerule]
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=*}
+
+\newcommand{\entry}[4]{
+    \noindent \textbf{#1} \hfill {\color{secondary}#2} \\
+    \textit{#3} \hfill \textit{\color{secondary}#4}\vspace{1mm}
+}
+
+\begin{document}
+
+%======================
+% Header
+%======================
+\noindent {\Huge \textbf{\color{primary} Ramazan Bora}} \\[4pt]
+Brisbane, QLD, Australia \hfill +61 421 099 850 \\
+\href{mailto:r.bora@uq.edu.au}{r.bora@uq.edu.au} \hfill \href{https://ramazanbora.com}{ramazanbora.com} \\[-2pt]
+
+\vspace{3mm}
+
+%======================
+% Profile
+%======================
+\section{Profile}
+
+Economics PhD candidate in empirical economics and political economy, with a research agenda centred on using granular open data across space, time, and behaviour to study institutions, governance, and decision-making. My work combines original data construction from fragmented administrative, geospatial, remote-sensing, and behavioural sources with rigorous quantitative methods, including difference-in-differences, event studies, and high-dimensional fixed effects. Experienced in delivering end-to-end empirical research pipelines and policy-facing data products for academic and government stakeholders.
+
+%======================
+% Research interests & methods
+%======================
+\section{Research Interests \& Methods}
+\textbf{Fields:} Political economy; institutions and governance; applied economics; computational social science. \\
+\textbf{Methods:} Causal inference; panel data econometrics; GIS; remote sensing \& night lights; administrative data; large-scale behavioural data; algorithmic benchmarking; open-source data.
+
+%======================
+% Education
+%======================
+\section{Education}
+
+\entry{University of Queensland}{Brisbane, Australia}{Ph.D. in Economics (thesis under examination; expected completion 2026)}{2021 -- present}
+\begin{itemize}
+    \item \textbf{Thesis:} \textit{Granularity in time, space, and behavior: Essays in empirical economics using open data}.
+\end{itemize}
+
+\entry{Penn State University \& Ibn Haldun University}{USA \& Turkey}{Doctoral studies in Economics}{2010 -- 2021}
+
+\entry{Ko\c{c} University}{Istanbul, Turkey}{M.A. in Economics (GPA: 3.92/4.0)}{2008 -- 2010}
+\begin{itemize}
+    \item Master's research in formal economic modelling of organisational design and strategic communication, examining centralised versus decentralised decision-making under alternative information structures, complementarities, and externalities.
+\end{itemize}
+
+\entry{Ko\c{c} University}{Istanbul, Turkey}{B.Sc. in Electrical \& Electronics Engineering (GPA: 3.48/4.0)}{2003 -- 2008}
+
+%======================
+% Research
+%======================
+\section{Research}
+
+\subsection*{Working Papers}
+
+\begin{itemize}
+    \item \textbf{Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics.} \\
+    \textit{UQ School of Economics Discussion Paper Series, 2025; working paper.} \\
+    Replicates and extends classic evidence on leader birthplace favoritism using open-source data, VIIRS night lights, and high-dimensional fixed effects. Exploits monthly temporal resolution to study leadership transitions and crisis dynamics, showing that favoritism emerges immediately upon accession and intensifies during the COVID-19 period, particularly in weaker democracies.
+\end{itemize}
+
+\subsection*{Works in Progress}
+
+\begin{itemize}
+    \item \textbf{A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey.} \\
+    Examines the causal effects of Turkey’s 2012 metropolitan municipality reform on rural development. Reconstructs high-resolution village boundary maps and links them to VIIRS night lights, population outcomes, service-delivery proxies, and driving-distance measures. Implements a contiguous-border difference-in-differences design to estimate development effects, population retention, and distance-related penalties in service reach.
+
+    \item \textbf{Measuring Cognition at Scale: The Association Between Ramadan Exposure and Chess Performance.} \\
+    Builds a move-level panel of approximately 16 million moves from 800,000 online chess games, benchmarking decisions with the Stockfish engine. Estimates changes in move quality, speed, and play timing using difference-in-differences with player and period fixed effects, documenting improved move quality, faster decisions, and systematic shifts toward nocturnal play during Ramadan exposure.
+
+    \item \textbf{A Novel Integerisation Procedure for Population Data} (with P. Wohland-Jakhar). \\
+    Develops an integerisation method for IPF-based small-area estimation that reconciles integer and marginal constraints in sparse geographies, motivated by Indigenous population estimation in Queensland. Accompanied by reproducible implementation and stakeholder-facing audit tools.
+\end{itemize}
+
+%======================
+% Conference Presentations
+%======================
+\section{Conference Presentations}
+
+\begin{itemize}
+    \item \textbf{38th Annual PhD Conference in Economics and Business} \hfill November 2024, ANU \\
+    Presented: \textit{A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey}.
+
+    \item \textbf{2025 Conference of the Society for Institutional \& Organizational Economics (SIOE)} \hfill August 2025, UNSW \\
+    Presented: \textit{A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey}.
+
+    \item \textbf{UQ Applied Micro Day} \hfill September 2025, UQ \\
+    Presented: \textit{Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics}.
+\end{itemize}
+
+%======================
+% Experience
+%======================
+\section{Research \& Applied Data Experience}
+
+\textbf{Queensland Centre for Population Research (School of the Environment, UQ)} \hfill Brisbane \\
+\textit{Senior Research Assistant} \hfill 2022 -- 2025
+\begin{itemize}
+    \item Developed a reproducible demographic estimation pipeline for the Queensland Government Statistical Office (QGSO), producing small-area (SA2) population estimates with a focus on Indigenous populations.
+    \item Implemented a modified IPF procedure for non-full-dimensional constraint structures.
+    \item Designed a novel integerisation algorithm converting fractional IPF outputs into integer population counts.
+    \item Liaised with QGSO stakeholders and authored technical documentation and handover materials to support maintenance, auditability, and reuse.
+\end{itemize}
+
+\textbf{UQ International Comparisons Database (UQICD)} \hfill Brisbane \\
+\textit{Senior Research Assistant} \hfill 2022 -- 2025
+\begin{itemize}
+    \item Refactored and documented the core \textbf{R} codebase supporting UQICD indicators and workflows (\href{https://uqicd.economics.uq.edu.au}{uqicd.economics.uq.edu.au}), improving maintainability and reproducibility.
+    \item Built data pipelines enabling user-defined regional aggregations for purchasing power parity comparisons and developed publicly available dashboards in \textbf{R}.
+    \item Managed acquisition, cleaning, harmonisation, and validation of heterogeneous international datasets to support stable updates.
+\end{itemize}
+
+\textbf{Real Estate \& Transport Project (Prof. Alicia Rambaldi)} \hfill Brisbane \\
+\textit{Senior Research Assistant} \hfill 2021 -- 2022
+\begin{itemize}
+    \item Acquired and cleaned large administrative property transaction data in collaboration with the NSW Valuer General.
+    \item Integrated sales records with GTFS transport networks and GIS layers, constructing accessibility measures for econometric modelling.
+    \item Produced distance-weighted and route-diversity indices to quantify public transport access in commercial property analysis.
+\end{itemize}
+
+\textbf{Ibn Haldun University} \hfill Istanbul, Turkey \\
+\textit{Research Assistant} \hfill 2018 -- 2021
+\begin{itemize}
+    \item Built text analytics and sentiment analysis workflows for social media data (Twitter API), including data collection, cleaning, and visualisation.
+    \item Supported faculty research projects.
+\end{itemize}
+
+\textbf{Penn State University} \hfill State College, USA \\
+\textit{Research Assistant (Prof. Bill Goffe; Prof. Vijay Krishna)} \hfill 2010 -- 2017
+\begin{itemize}
+    \item Developed a Python tool to flag irregularities in assessment data, automating detection of potential academic misconduct.
+    \item Contributed proofs for research on voting rules and welfare properties.
+\end{itemize}
+
+\textbf{Ko\c{c} University (Engineering)} \hfill Istanbul, Turkey \\
+\textit{Research Assistant} \hfill 2004 -- 2008
+\begin{itemize}
+    \item Applied pattern recognition methods to sensor data for driver identification (DRIVE-SAFE project).
+    \item Implemented video deinterlacing algorithms for broadcast enhancement and signal-processing applications.
+\end{itemize}
+
+%======================
+% Teaching
+%======================
+\section{Teaching Experience (Selected)}
+
+\entry{University of Queensland}{Brisbane}{Senior Tutor / Tutor}{2021 -- present}
+\begin{itemize}
+    \item Senior Tutor: Mathematical Economics; Tools of Economic Analysis (tutorial coordination, administration, liaison with lecturers).
+    \item Tutor: Advanced Microeconomics (M.A.); Strategy (M.A.); Managerial Economics; Mathematical Economics.
+\end{itemize}
+
+\entry{Ibn Haldun University}{Istanbul}{Teaching Assistant}{2018 -- 2021}
+\begin{itemize}
+    \item Tutor: PhD-level Microeconomics and Macroeconomics.
+\end{itemize}
+
+\entry{Penn State University}{USA}{Instructor of Record, Teaching Assistant, Tutor}{2010 -- 2017}
+\begin{itemize}
+    \item Instructor: Intermediate Microeconomics; Introductory Econometrics.
+    \item Teaching Assistant: Microeconomics; Game Theory; Money and Banking; Economics of Law and Organization.
+    \item Tutor, Morgan Center: One-on-one support for student athletes across economics, mathematics, and statistics.
+\end{itemize}
+
+%======================
+% Skills
+%======================
+\section{Technical Skills}
+\begin{itemize}
+    \item \textbf{Programming:} R, Python, Stata, MATLAB; working knowledge of SQL.
+    \item \textbf{Methods \& Data:} Causal inference; panel data analysis; administrative data; GIS; remote sensing; data scraping; algorithmic benchmarking.
+    \item \textbf{Tools:} Git, Google Earth Engine, AWS, \LaTeX.
+\end{itemize}
+
+%======================
+% References
+%======================
+\section{References}
+\begin{itemize}
+    \item \textbf{Prof. Alicia Rambaldi} (Supervisor), University of Queensland. \href{mailto:a.rambaldi@uq.edu.au}{a.rambaldi@uq.edu.au}
+    \item \textbf{Dr. Haishan Yuan} (Supervisor), University of Queensland. \href{mailto:h.yuan@uq.edu.au}{h.yuan@uq.edu.au}
+    \item \textbf{Dr. Pia Wohland} (Project Lead, QGSO), University of Queensland. \href{mailto:pia.wohland@uq.edu.au}{pia.wohland@uq.edu.au}
+\end{itemize}
+
+\end{document}

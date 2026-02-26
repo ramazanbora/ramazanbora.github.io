@@ -7,23 +7,32 @@ redirect_from:
   - /about.html
 ---
 
-Ramazan Bora is an Economics Ph.D. candidate at the University of Queensland working in empirical economics and political economy. His research uses open data with high frequency in space, time, and behavior to study institutions, policy, and decision-making.
+Ramazan Bora is an Economics PhD candidate at the University of Queensland (thesis under examination; expected completion in 2026). His research sits at the intersection of empirical economics, political economy, and computational social science.
 
-Research Interests
-======
-- Political economy
-- Institutions and development
-- Applied economics
-- Computational social science
+His work emphasizes data-intensive, collaborative empirical research: building original datasets from fragmented sources, designing transparent identification strategies, and delivering policy-facing outputs for academic and government stakeholders.
 
-Latest Research
+Research Agenda
 ======
-**A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey**  
-Studies the 2012 Turkish metropolitan municipality reform as a centralization shock for thousands of villages. Uses reconstructed administrative boundaries, VIIRS night lights, population outcomes, and distance-to-center measures in a contiguous-border DiD design.
+The core theme of his work is **granularity in time, space, and behavior**. Using open data and reproducible empirical pipelines, he studies how institutions, governance, and human decision-making can look different when data are measured at finer resolution.
+
+Current Focus
+======
+- Local government centralization and rural development in Turkey.
+- Birthplace favoritism and crisis dynamics in political economy.
+- Cognitive performance under Ramadan exposure using large-scale chess data.
 
 Quick Links
 ======
 - [Research](/research/)
+- [Thesis](/thesis/)
 - [CV](/cv/)
 - [Teaching](/teaching/)
 - [Contact](/contact/)
+
+Documents
+======
+- [CV source (LaTeX)](/files/cv_final.tex)
+- [Thesis abstract (text)](/files/BORA_ramazan_PhD_Thesis_Title_Page_Abstract.txt)
+- [Thesis introduction draft (text)](/files/thesis_intro.txt)
+- [Chapter abstracts (text)](/files/chapter_abstracts.txt)
+- [Monash cover letter (text)](/files/Ramazan_Bora_Monash_cover_letter.txt)
