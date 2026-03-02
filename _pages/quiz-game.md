@@ -23,11 +23,6 @@ author_profile: false
       <button id="quiz-load-url-btn" type="button">Load URL</button>
     </div>
 
-    <div class="quiz-sample-row">
-      <button id="quiz-load-sample-btn" type="button">Load Sample Quiz (Intro Micro, 10 Questions)</button>
-      <span>Demo login: Game ID <code>MICRO-INTRO-10</code>, Cohort <code>A</code>, Password <code>microA2026</code></span>
-    </div>
-
     <div id="quiz-load-status" class="quiz-status"></div>
   </div>
 

@@ -2,110 +2,6 @@
   "use strict";
 
   var RESULT_STORAGE_KEY = "quiz_game_results";
-  var SAMPLE_INTRO_MICRO_QUIZ = {
-    title: "Introductory Microeconomics Sample Quiz",
-    gameId: "MICRO-INTRO-10",
-    timeLimitMinutes: 5,
-    cohorts: [
-      { id: "A", password: "microA2026" },
-      { id: "B", password: "microB2026" }
-    ],
-    questions: [
-      {
-        id: "m1",
-        type: "multiple_choice",
-        prompt: "When price rises, quantity demanded usually falls. This is the:",
-        options: ["Law of Supply", "Law of Demand", "Income Effect", "Marginal Product"],
-        answer: 1
-      },
-      {
-        id: "m2",
-        type: "multiple_choice",
-        prompt: "A shift of the demand curve to the right means:",
-        options: [
-          "Demand decreased",
-          "Quantity demanded decreased",
-          "Demand increased",
-          "Supply increased"
-        ],
-        answer: 2
-      },
-      {
-        id: "m3",
-        type: "multiple_choice",
-        prompt: "A price ceiling set below equilibrium typically causes:",
-        options: ["Surplus", "Shortage", "No change", "Market clearing above equilibrium"],
-        answer: 1
-      },
-      {
-        id: "m4",
-        type: "multiple_choice",
-        prompt: "Price elasticity of demand measures responsiveness of:",
-        options: [
-          "Quantity demanded to price changes",
-          "Price to demand changes",
-          "Quantity supplied to wage changes",
-          "Revenue to tax changes"
-        ],
-        answer: 0
-      },
-      {
-        id: "m5",
-        type: "true_false",
-        prompt: "If demand is inelastic, a price increase tends to raise total revenue.",
-        answer: "true"
-      },
-      {
-        id: "m6",
-        type: "multiple_choice",
-        prompt: "Marginal cost is best defined as:",
-        options: [
-          "Total cost divided by output",
-          "The cost of fixed inputs",
-          "Additional cost of producing one more unit",
-          "Opportunity cost of labor only"
-        ],
-        answer: 2
-      },
-      {
-        id: "m7",
-        type: "multiple_choice",
-        prompt: "In perfect competition, in the long run firms earn:",
-        options: ["Positive economic profit", "Zero economic profit", "Negative accounting profit", "Monopoly rent"],
-        answer: 1
-      },
-      {
-        id: "m8",
-        type: "multiple_choice",
-        prompt: "A positive externality leads to:",
-        options: [
-          "Overproduction in competitive market",
-          "Efficient market outcome automatically",
-          "Underproduction relative to social optimum",
-          "No wedge between private and social benefits"
-        ],
-        answer: 2
-      },
-      {
-        id: "m9",
-        type: "multiple_choice",
-        prompt: "Consumer surplus is the area:",
-        options: [
-          "Below supply and above price",
-          "Above demand and below market price",
-          "Below demand and above market price",
-          "Between demand and supply below equilibrium quantity only"
-        ],
-        answer: 2
-      },
-      {
-        id: "m10",
-        type: "short_text",
-        prompt: "Name the market structure with one seller.",
-        answer: "monopoly"
-      }
-    ]
-  };
 
   var state = {
     quiz: null,
@@ -120,7 +16,6 @@
     fileInput: document.getElementById("quiz-file-input"),
     urlInput: document.getElementById("quiz-url-input"),
     loadUrlBtn: document.getElementById("quiz-load-url-btn"),
-    loadSampleBtn: document.getElementById("quiz-load-sample-btn"),
     loadStatus: document.getElementById("quiz-load-status"),
     startSection: document.getElementById("quiz-start-section"),
     runSection: document.getElementById("quiz-run-section"),
@@ -557,17 +452,5 @@
   els.startBtn.addEventListener("click", onStartQuiz);
   els.submitBtn.addEventListener("click", function () {
     finalizeQuiz(false);
-  });
-  els.loadSampleBtn.addEventListener("click", function () {
-    var sampleQuiz = JSON.parse(JSON.stringify(SAMPLE_INTRO_MICRO_QUIZ));
-    loadQuiz(sampleQuiz);
-    els.gameIdInput.value = sampleQuiz.gameId;
-    els.cohortInput.value = "A";
-    els.passwordInput.value = "microA2026";
-    setStatus(
-      els.loadStatus,
-      "Sample Intro Micro quiz loaded. Enter student name and start.",
-      false
-    );
   });
 })();
