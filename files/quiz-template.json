@@ -1,0 +1,36 @@
+{
+  "title": "Sample Cohort Quiz",
+  "gameId": "GAME-101",
+  "timeLimitMinutes": 5,
+  "cohorts": [
+    {
+      "id": "A",
+      "password": "alpha123"
+    },
+    {
+      "id": "B",
+      "password": "beta123"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Which data structure uses key-value pairs?",
+      "options": ["Array", "Object", "Set", "Tuple"],
+      "answer": 1
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "JSON allows trailing commas.",
+      "answer": "false"
+    },
+    {
+      "id": "q3",
+      "type": "short_text",
+      "prompt": "Write the keyword used to declare a constant in JavaScript.",
+      "answer": "const"
+    }
+  ]
+}

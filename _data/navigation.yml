@@ -20,5 +20,8 @@ main:
   - title: "Teaching"
     url: /teaching/
 
+  - title: "Quiz"
+    url: /quiz-game/
+
   - title: "Contact"
     url: /contact/
