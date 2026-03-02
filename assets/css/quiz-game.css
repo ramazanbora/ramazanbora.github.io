@@ -37,6 +37,19 @@
   margin: 0.5rem 0;
 }
 
+.quiz-sample-row {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.quiz-sample-row span {
+  color: #475467;
+  font-size: 0.92rem;
+}
+
 .quiz-status {
   margin-top: 0.6rem;
   font-size: 0.95rem;
