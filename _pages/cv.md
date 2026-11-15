@@ -17,7 +17,7 @@ redirect_from:
 <div class="cv-entry">
   <h3>Research Fellow</h3>
   <p class="entry-meta">Monash University · Department of Economics · 2026–present</p>
-  <p>Applied economics and computational research on institutions, including appellate judgments and High Court special-leave selection with Russell Smyth.</p>
+  <p>I led the data development and empirical analysis for research on Australian appellate courts and selection into High Court review, coauthored with Russell Smyth.</p>
 </div>
 
 ## Education
@@ -46,6 +46,22 @@ redirect_from:
 </div>
 {% endfor %}
 
+## Selected presentations
+
+- **September 2025 — UQ Applied Micro Day, The University of Queensland.** “Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics.”
+- **2025 — Society for Institutional and Organizational Economics, Sydney.** “An Examination of Centralized Local Governance and Development.”
+- **2024 — 38th Annual PhD Conference in Economics and Business, Australian National University.** “An Examination of Centralized Local Governance and Development Through Turkey’s New Mega-Municipalities.”
+
+## Awards, scholarships and research funding
+
+- University of Queensland Scholarship — commenced 2021.
+- Penn State University Scholarship — 2010–2015.
+- Koç University Scholarship — 2003–2010.
+- Fellowship, The Scientific and Technical Research Council of Turkey (TÜBİTAK) — 2008–2010.
+- Research funding: Koç University, 2008–2010; The Scientific and Technical Research Council of Turkey (TÜBİTAK), 2008–2009.
+- Vehbi Koç Scholar, Koç University — Spring and Fall 2005 and 2006.
+- Dean’s Honor Roll, Koç University — Fall 2004, Fall 2007 and Spring 2008.
+
 ## Selected research experience
 
 <div class="cv-entry">
@@ -63,10 +79,15 @@ redirect_from:
   <p class="entry-meta">University of Queensland · with Alicia Rambaldi</p>
   <p>I linked administrative property transactions to geospatial and transport data, constructing accessibility measures and nearby-market indicators.</p>
 </div>
+<div class="cv-entry">
+  <h3>Research assistance at Penn State</h3>
+  <p class="entry-meta">Pennsylvania State University · 2010–2017</p>
+  <p>I worked on voting rules and welfare with Vijay Krishna and a Python assessment-data tool with Bill Goffe.</p>
+</div>
 
 ## Teaching
 
-My economics teaching at the University of Queensland includes mathematical techniques, tools of economic analysis and managerial economics. At Penn State, I was the instructor for Introduction to Econometrics (World Campus, Summer 2015).
+At the University of Queensland, I served as Senior Tutor in undergraduate microeconomics. My teaching also includes mathematical techniques, tools of economic analysis and managerial economics. At Penn State, I was the instructor for Introduction to Econometrics (World Campus, Summer 2015).
 
 I co-developed **Class Groups** with Axel Wieneke, a Python/Flask and SQLite prototype for student group formation and presentation scheduling. I specified classroom rules and directed AI-assisted implementation and testing.
 
