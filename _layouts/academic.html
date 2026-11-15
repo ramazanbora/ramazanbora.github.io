@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-AU" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% assign page_description = page.description | default: site.description %}
+    <title>{% unless page.url == '/' %}{{ page.title | escape }} · {% endunless %}{{ site.title | escape }}</title>
+    <meta name="description" content="{{ page_description | escape }}">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:description" content="{{ page_description | escape }}">
+    <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+    <meta property="og:image" content="{{ '/images/ramazan-bora.jpg' | absolute_url }}">
+    <meta property="og:image:alt" content="Portrait of Ramazan Bora">
+    <meta name="theme-color" content="#173e4b">
+    <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+    <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+    <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
+    {% if page.url == '/' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": {{ site.name | jsonify }},
+      "url": {{ site.url | jsonify }},
+      "image": {{ '/images/ramazan-bora.jpg' | absolute_url | jsonify }},
+      "jobTitle": "Research Fellow",
+      "affiliation": {"@type": "CollegeOrUniversity", "name": "Monash University"},
+      "sameAs": [
+        "https://research.monash.edu/en/persons/ramazan-bora/",
+        "https://orcid.org/0000-0001-6558-1668",
+        "https://ideas.repec.org/f/pbo1245.html",
+        "https://www.linkedin.com/in/ramazanbora"
+      ]
+    }
+    </script>
+    {% endif %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-name" href="{{ '/' | relative_url }}">Ramazan Bora</a>
+        <nav class="primary-nav" aria-label="Main navigation" data-open="false">
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-links" hidden>Menu <span aria-hidden="true">☰</span></button>
+          <ul class="nav-links" id="primary-links">
+            {% for link in site.data.navigation.main %}
+            {% assign is_current = false %}
+            {% if page.url == link.url %}{% assign is_current = true %}{% endif %}
+            {% if link.url == '/research/' and page.url contains '/research/' %}{% assign is_current = true %}{% endif %}
+            <li><a href="{{ link.url | relative_url }}"{% if is_current %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="site-body">
+      <aside class="profile" aria-label="About Ramazan Bora">
+        <img class="profile-photo" src="{{ '/images/ramazan-bora.jpg' | relative_url }}" alt="Ramazan Bora" width="942" height="1109" fetchpriority="high">
+        <div class="profile-content">
+          <p class="profile-name">Ramazan Bora</p>
+          <p class="profile-role">Research Fellow<br>Department of Economics<br>Monash University</p>
+          <p class="profile-location">Australia</p>
+          <ul class="profile-links" aria-label="Contact and academic profiles">
+            <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+            <li><a href="{{ '/cv/' | relative_url }}">Curriculum vitae</a></li>
+            <li><a href="https://research.monash.edu/en/persons/ramazan-bora/">Monash profile</a></li>
+            <li><a href="https://ideas.repec.org/f/pbo1245.html">RePEc</a></li>
+            <li><a href="https://orcid.org/0000-0001-6558-1668">ORCID</a></li>
+            <li><a href="https://www.linkedin.com/in/ramazanbora">LinkedIn</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <main id="main-content" class="main-content{% if page.url == '/' %} home-content{% endif %}" tabindex="-1">
+        <header class="page-heading">
+          {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+        </header>
+        <div class="page-content">{{ content }}</div>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© {{ site.time | date: '%Y' }} Ramazan Bora <span class="footer-separator" aria-hidden="true">·</span> <a href="{{ '/contact/' | relative_url }}">Contact</a> <span class="footer-separator" aria-hidden="true">·</span> <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a></p>
+        <p>Updated {{ site.content_updated | date: '%B %Y' }} <span class="footer-separator" aria-hidden="true">·</span> Built with <a href="https://jekyllrb.com/">Jekyll</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

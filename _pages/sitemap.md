@@ -1,37 +1,20 @@
 ---
-layout: archive
+layout: academic
 title: "Sitemap"
 permalink: /sitemap/
-author_profile: true
+description: "Pages and research summaries on Ramazan Bora’s academic website."
 ---
 
-{% include base_path %}
+## Main pages
 
-A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
-
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
+{% for link in site.data.navigation.main %}
+- [{{ link.title }}]({{ link.url | relative_url }})
 {% endfor %}
 
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+## Research summaries
 
-{% capture written_label %}'None'{% endcapture %}
+{% for paper in site.data.research %}{% if paper.url %}
+- [{{ paper.title }}]({{ paper.url | relative_url }})
+{% endif %}{% endfor %}
 
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-{% endfor %}
+[XML sitemap]({{ '/sitemap.xml' | relative_url }})

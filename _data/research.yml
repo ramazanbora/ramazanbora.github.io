@@ -1,0 +1,55 @@
+- id: metropolitan-reform
+  title: "Metropolitan Government and the Rural Periphery: Evidence from Turkey"
+  category: "Job market paper"
+  status: "Job market paper"
+  authors: "Ramazan Bora"
+  url: /research/hinterland-abstract/
+  request_paper: true
+  summary: "I reconstruct village geographies and combine population records with satellite luminosity to study how rural outcomes evolve around Turkey’s metropolitan reform, using comparisons along provincial frontiers."
+  paragraphs:
+    - "Turkey’s metropolitan reform reorganised local government and extended metropolitan administration over rural areas. I reconstruct village geographies and link them to population records, satellite luminosity and measures of access to administrative centres."
+    - "The empirical design compares rural areas along provincial frontiers over time. My current work examines how administrative reclassification, measurement and the choice of comparison areas affect the interpretation of rural population and luminosity patterns."
+
+- id: cues-from-below
+  title: "Cues from Below: How Judgments in Intermediate Appellate Courts Signal Special Leave Prospects in the High Court of Australia"
+  category: "Working papers"
+  status: "Working paper"
+  authors: "Ramazan Bora and Russell Smyth"
+  coauthors: "Russell Smyth"
+  url: /research/cues-from-below/
+  summary: "With Russell Smyth, I study how features of intermediate appellate judgments relate to applications for and grants of special leave to the High Court of Australia, distinguishing the decision to apply from the decision to grant leave."
+  paragraphs:
+    - "With Russell Smyth, I study whether dissent, judgment writing, citations and judicial language provide cues about the next stages of appellate selection. We link judgments from five intermediate appellate courts to special-leave histories in the High Court of Australia."
+    - "The analysis separates applications for special leave from grants of leave and examines how observable features of the lower-court judgments relate to each stage. These are observational associations, rather than causal effects of judgment characteristics."
+
+- id: birthplace
+  title: "Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics"
+  category: "Working papers"
+  status: "UQ Economics Discussion Paper No. 671, 2025"
+  authors: "Ramazan Bora"
+  url: /research/birthplace-abstract/
+  paper_url: https://economics.uq.edu.au/files/54118/671.pdf
+  record_url: https://ideas.repec.org/p/qld/uq2004/671.html
+  summary: "I revisit birthplace favoritism using open data and satellite luminosity, examining how the measurement of political exposure changes our view of leader transitions and the COVID period."
+  paragraphs:
+    - "I revisit the relationship between national leaders and economic activity in their birth regions. I combine open leader-birthplace data, subnational boundaries and satellite luminosity to replicate earlier findings and extend the analysis into the VIIRS era."
+    - "The public discussion paper studies leader transitions and crisis dynamics at monthly resolution. My ongoing revisions examine exposure histories, luminosity measurement and the comparisons used to interpret differences during the COVID period. The linked PDF is the November 2025 discussion-paper version."
+
+- id: ramadan-chess
+  title: "Measuring Cognition at Scale: The Association Between Ramadan Exposure and Chess Performance"
+  category: "Work in progress"
+  status: "Doctoral thesis chapter (2026); work in progress"
+  authors: "Ramazan Bora"
+  url: /research/ramadan-chess-abstract/
+  summary: "I use move-level online chess data to study changes in recorded decision quality, speed and play timing around Ramadan, distinguishing country-flag exposure from individual fasting."
+  paragraphs:
+    - "I use move-level online chess data to examine recorded decision quality, move speed and the timing of play around Ramadan. Chess-engine evaluations provide a benchmark for errors, while repeated observations allow comparisons within players over time."
+    - "Exposure is defined using players’ country flags rather than observed religious practice or fasting. Because online participation is voluntary, I consider selection into play and changes in the composition and timing of observed games."
+
+- id: integerisation
+  title: "A Novel Integerisation Procedure for Population Data"
+  category: "Work in progress"
+  status: "Work in progress"
+  authors: "Ramazan Bora and P. Wohland-Jakhar"
+  coauthors: "P. Wohland-Jakhar"
+  summary: "A project on integerisation methods for small-area population estimation using iterative proportional fitting."
