@@ -68,6 +68,8 @@ redirect_from:
 
 My economics teaching at the University of Queensland includes mathematical techniques, tools of economic analysis and managerial economics. At Penn State, I was the instructor for Introduction to Econometrics (World Campus, Summer 2015).
 
+I co-developed **Class Groups** with Axel Wieneke, a Python/Flask and SQLite prototype for student group formation and presentation scheduling. I specified classroom rules and directed AI-assisted implementation and testing.
+
 [Teaching experience and approach]({{ '/teaching/' | relative_url }})
 
 ## Methods and tools
@@ -75,3 +77,4 @@ My economics teaching at the University of Queensland includes mathematical tech
 - **Methods and data:** applied econometrics, panel data, spatial analysis, remote sensing, administrative data and text analysis.
 - **Programming:** Python, R, Stata and MATLAB.
 - **Research tools:** GIS, Google Earth Engine, Git and LaTeX.
+- **Experimental model adaptation:** LoRA fine-tuning for equation-image transcription in Colab, with comparisons on a small repeated evaluation set.
