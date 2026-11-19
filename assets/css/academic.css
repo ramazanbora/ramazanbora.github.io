@@ -120,6 +120,8 @@ strong { font-weight: 650; }
   .paper-item h2, .paper-item h3 { font-size: 1.3rem; }
   .footer-inner { padding: 1.2rem; display: block; }
   .footer-inner p + p { margin-top: .35rem; }
+  .inner-page .profile { display: none; }
+  .paper-page h1 { font-size: 1.55rem; line-height: 1.3; }
 }
 @media (max-width: 360px) {
   .contact-details { display: block; }

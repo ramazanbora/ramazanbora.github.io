@@ -9,7 +9,7 @@ Please get in touch about my research, teaching or potential collaborations.
 
 <dl class="contact-details">
   <dt>Email</dt><dd><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></dd>
-  <dt>Affiliation</dt><dd>Department of Economics<br>Monash University, Australia</dd>
+  <dt>Affiliation</dt><dd>Department of Economics, Monash Business School<br>Monash University, Melbourne, Australia</dd>
 </dl>
 
 ## Academic profiles

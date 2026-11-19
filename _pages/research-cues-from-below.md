@@ -4,7 +4,7 @@ title: "Cues from Below: How Judgments in Intermediate Appellate Courts Signal S
 permalink: /research/cues-from-below/
 research_id: cues-from-below
 eyebrow: "Research"
-description: "Working paper by Ramazan Bora and Russell Smyth on appellate judgments and special-leave applications and grants in the High Court of Australia."
+description: "Paper by Ramazan Bora and Russell Smyth on appellate judgments and special-leave applications and grants in the High Court of Australia."
 ---
 
 {% include paper-details.html %}

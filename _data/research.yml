@@ -1,55 +1,56 @@
 - id: metropolitan-reform
   title: "A High-Resolution View of the Hinterland: Local Government Centralization and Rural Development in Turkey"
   category: "Job market paper"
-  status: "Job market paper · Thesis version, June 2026"
+  status: "Job market paper"
   authors: "Ramazan Bora"
   url: /research/hinterland-abstract/
   request_paper: true
-  summary: "I reconstruct village geographies and combine population records with satellite luminosity to study how rural outcomes evolve around Turkey’s metropolitan reform, using comparisons along provincial frontiers."
+  summary: "Turkey’s 2012 reform placed thousands of villages under metropolitan governments. I reconstruct village boundaries and link them to satellite night lights and population registers, comparing villages on either side of provincial borders. Villages in newly created metropolitan provinces are about 11% brighter a decade after the reform, and treated villages retain about 10% more of their population."
   paragraphs:
-    - "This thesis version studies Turkey’s metropolitan reform, which reorganised local government and extended metropolitan administration over rural areas. I reconstruct village geographies and link them to population records, satellite luminosity and measures of access to administrative centres."
-    - "I compare rural areas along treated and untreated provincial frontiers over time. The paper is based on the metropolitan-reform chapter of my University of Queensland doctoral thesis; the version available on request is the thesis version, June 2026."
+    - "Turkey’s 2012 metropolitan reform created 14 new metropolitan provinces, extended existing metropolitan jurisdictions to provincial borders and abolished village self-government within them. I reconstruct village boundary polygons for thousands of villages and link them to VIIRS night lights, population registers, a daily satellite proxy for power outages and driving times to administrative centres."
+    - "A contiguous-border difference-in-differences design compares villages on either side of treated and untreated provincial frontiers. I find that villages in newly created metropolitan provinces are about 11% brighter a decade after the reform and that treated villages retain about 10% more of their population. There is no consistent gain in night lights where existing metropolitan governments had their territory expanded, and a penalty for distance from the administrative centre fades over time."
+    - "Presented at the SIOE annual conference (2025) and the ANU PhD Conference in Economics and Business (2024). I am revising the paper for journal submission."
 
 - id: cues-from-below
   title: "Cues from Below: How Judgments in Intermediate Appellate Courts Signal Special Leave Prospects in the High Court of Australia"
-  category: "Working papers"
-  status: "Working paper"
+  category: "Papers"
+  status: "Manuscript, 2026"
   authors: "Ramazan Bora and Russell Smyth"
   coauthors: "Russell Smyth"
   url: /research/cues-from-below/
-  summary: "With Russell Smyth, I study how features of intermediate appellate judgments relate to applications for and grants of special leave to the High Court of Australia, distinguishing the decision to apply from the decision to grant leave."
+  summary: "We ask whether the judgment of an intermediate appellate court carries cues about the prospects of an application for special leave to appeal to the High Court of Australia, and we study the decision to apply and the decision to grant separately."
   paragraphs:
-    - "With Russell Smyth, I study whether dissent, judgment writing, citations and judicial language provide cues about the next stages of appellate selection. We link judgments from five intermediate appellate courts to special-leave histories in the High Court of Australia."
-    - "The analysis separates applications for special leave from grants of leave and examines how observable features of the lower-court judgments relate to each stage. These are observational associations, rather than causal effects of judgment characteristics."
+    - "How the High Court exercises its discretion to grant special leave to appeal is widely regarded as unclear. We ask whether dissent, the way a judgment is written, the authorities it cites and the language its judges use carry cues about an application’s prospects."
+    - "We link the judgments of five intermediate appellate courts to special-leave applications and outcomes, so that we can study both the decision to apply and the decision to grant."
 
 - id: birthplace
   title: "Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics"
-  category: "Working papers"
-  status: "UQ Economics Discussion Paper No. 671, 2025"
+  category: "Papers"
+  status: "UQ School of Economics Discussion Paper No. 671, 2025"
   authors: "Ramazan Bora"
   url: /research/birthplace-abstract/
   paper_url: https://economics.uq.edu.au/files/54118/671.pdf
   record_url: https://ideas.repec.org/p/qld/uq2004/671.html
-  summary: "I revisit birthplace favoritism using open data and satellite luminosity, examining how the measurement of political exposure changes our view of leader transitions and the COVID period."
+  summary: "I replicate Hodler and Raschky (2014) using only open data and extend the analysis to monthly satellite night lights for 2012–2025. The premium enjoyed by a national leader’s birth region persists in the modern data, appears on accession and does not disappear when the leader leaves office."
   paragraphs:
-    - "I revisit the relationship between national leaders and economic activity in their birth regions. I combine open leader-birthplace data, subnational boundaries and satellite luminosity to replicate earlier findings and extend the analysis into the VIIRS era."
-    - "The public discussion paper studies leader transitions and crisis dynamics at monthly resolution. My ongoing revisions examine exposure histories, luminosity measurement and the comparisons used to interpret differences during the COVID period. The linked PDF is the November 2025 discussion-paper version."
+    - "I replicate Hodler and Raschky (2014) using only open data, then extend the analysis to monthly VIIRS night lights for 2012–2025. The premium enjoyed by a national leader’s birth region persists in the modern data, appears on accession and does not disappear when the leader leaves office."
+    - "A sharp rise in the premium at the onset of COVID-19 turns out, under placebo reassignment, to be partly a population-density artefact. After country-by-month-by-density fixed effects and a comparison with regions that produced past leaders, a premium remains, concentrated in countries with weaker democratic institutions. The linked paper is the discussion-paper version of November 2025."
 
 - id: ramadan-chess
   title: "Measuring Cognition at Scale: The Association Between Ramadan Exposure and Chess Performance"
-  category: "Work in progress"
-  status: "Doctoral thesis chapter (2026); work in progress"
+  category: "Papers"
+  status: "Working paper"
   authors: "Ramazan Bora"
   url: /research/ramadan-chess-abstract/
-  summary: "I use move-level online chess data to study changes in recorded decision quality, speed and play timing around Ramadan, distinguishing country-flag exposure from individual fasting."
+  summary: "I score 16 million moves from 800,000 online chess games against a chess engine. Players with Muslim-majority-country flags make about 1% fewer errors during Ramadan, move faster and shift their play towards the night."
   paragraphs:
-    - "I use move-level online chess data to examine recorded decision quality, move speed and the timing of play around Ramadan. Chess-engine evaluations provide a benchmark for errors, while repeated observations allow comparisons within players over time."
-    - "Exposure is defined using players’ country flags rather than observed religious practice or fasting. Because online participation is voluntary, I consider selection into play and changes in the composition and timing of observed games."
+    - "A panel of 16 million moves from 800,000 online chess games, each move scored against the Stockfish engine, which gives a consistent measure of decision quality within a player over time."
+    - "In a difference-in-differences design with player and period fixed effects, players with Muslim-majority-country flags make about 1% fewer errors during Ramadan, move faster and shift play towards the night. The association is concentrated among lower-rated and less experienced players."
 
 - id: integerisation
   title: "A Novel Integerisation Procedure for Population Data"
   category: "Work in progress"
   status: "Work in progress"
-  authors: "Ramazan Bora and P. Wohland-Jakhar"
-  coauthors: "P. Wohland-Jakhar"
-  summary: "A project on integerisation methods for small-area population estimation using iterative proportional fitting."
+  authors: "Ramazan Bora and Pia Wohland"
+  coauthors: "Pia Wohland"
+  summary: "A method for converting fractional estimates from iterative proportional fitting into whole numbers that satisfy every marginal constraint. It grew out of the population estimates we produced for the Queensland Government Statistician’s Office."

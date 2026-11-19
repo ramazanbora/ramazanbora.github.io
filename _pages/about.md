@@ -4,17 +4,19 @@ permalink: /
 title: "Ramazan Bora"
 eyebrow: "Economics · Monash University"
 subtitle: "Research Fellow, Department of Economics"
-description: "Ramazan Bora is a Research Fellow in Economics at Monash University, studying institutions, governance and decision-making with granular data."
+description: "Ramazan Bora is an applied economist at Monash University who studies political economy and institutions using data he builds from satellite imagery, administrative records and court judgments."
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<p class="intro">I am a Research Fellow in the Department of Economics at Monash University. I study institutions, governance and decision-making by combining applied econometrics with granular spatial, administrative and behavioural data.</p>
+<p class="intro">I am an applied economist working on political economy and institutions. I study how authority is organised and used, and what that means for those far from the centre: villages absorbed into metropolitan governments, regions that do or do not produce a national leader, litigants seeking a hearing in a final court.</p>
 
-I received my PhD in Economics from the University of Queensland in 2026. My thesis asks what becomes visible when economic measurement is made more granular across space, time and behaviour. Across my research, I build datasets from fragmented sources and examine how measurement and comparison choices shape empirical conclusions.
+These questions often lack data at the resolution where the mechanism operates, so I build it. For my doctoral thesis at the University of Queensland (2026) I reconstructed village boundaries across Turkey and linked them to monthly satellite night lights to evaluate a major local-government reform, replicated and extended the evidence on leaders’ birthplace favouritism with open data for 2012–2025, and scored 16 million online chess moves against an engine to measure decision quality.
 
-My current work with Russell Smyth examines how features of appellate judgments relate to special-leave applications and decisions in the High Court of Australia. My other research studies local government reform, political favoritism and behaviour in online chess.
+As a Research Fellow in the Department of Economics at Monash University I work with Russell Smyth on special leave to appeal to the High Court of Australia. I built a corpus of appellate judgments linked to High Court applications and designed the language-model workflow, with staged verification, that measures dissent, citations and judicial signals in each judgment.
+
+I have taught microeconomics, mathematics for economists and econometrics since 2006, as instructor of record at Penn State and as tutor and Senior Tutor at Queensland.
 
 <div class="action-links">
   <a class="button-link" href="{{ '/research/' | relative_url }}">Explore research</a>
@@ -25,10 +27,12 @@ My current work with Russell Smyth examines how features of appellate judgments 
 ## Research interests
 
 <ul class="research-fields">
-  <li>Applied microeconomics</li>
   <li>Political economy</li>
-  <li>Economics of institutions</li>
-  <li>Computational social science</li>
+  <li>Institutions and governance</li>
+  <li>Law and economics</li>
+  <li>Development economics</li>
+  <li>Applied microeconometrics</li>
+  <li>Measurement from satellite, administrative and text data</li>
 </ul>
 
 <div class="section-heading">

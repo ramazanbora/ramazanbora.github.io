@@ -2,19 +2,19 @@
 locale: en-AU
 title: Ramazan Bora
 name: Ramazan Bora
-description: "Ramazan Bora is a Research Fellow in Economics at Monash University, studying institutions, governance and decision-making with granular data."
+description: "Ramazan Bora is an applied economist at Monash University who studies political economy and institutions using data he builds from satellite imagery, administrative records and court judgments."
 url: https://ramazanbora.com
 baseurl: ""
 repository: ramazanbora/ramazanbora.github.io
-content_updated: 2026-11-15
-cv_pdf: /files/cv_final.pdf
+content_updated: 2026-11-20
+cv_pdf: /files/Ramazan_Bora_CV.pdf
 
 author:
   name: Ramazan Bora
   avatar: ramazan-bora.jpg
   bio: "Research Fellow in Economics at Monash University."
   employer: Monash University
-  email: Ramazan.Bora@monash.edu
+  email: ramazan.bora@monash.edu
   uri: https://ramazanbora.com
   orcid: https://orcid.org/0000-0001-6558-1668
   linkedin: ramazanbora

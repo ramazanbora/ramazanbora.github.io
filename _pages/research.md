@@ -7,7 +7,7 @@ description: "Research by Ramazan Bora on institutions, political economy, appel
 
 My research combines applied econometrics, original data construction and computational methods to study institutions and behaviour. Current projects use legal texts, satellite imagery, administrative records and online chess data.
 
-{% assign categories = 'Job market paper|Working papers|Work in progress' | split: '|' %}
+{% assign categories = 'Job market paper|Papers|Work in progress' | split: '|' %}
 {% for category in categories %}
 <h2>{{ category }}</h2>
 <div class="paper-list">
