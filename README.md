@@ -34,7 +34,7 @@ Keep the job market designation distinct from publication or submission readines
 
 Only publish manuscript files whose release is established. Private drafts, reviewer material, employment records, teaching records and research data do not belong in this repository. Update both CV PDF filenames together. Existing applicant text extracts, old TeX and sample paper/slide PDFs are excluded from deployment; their older repository history is not rewritten by an ordinary website update.
 
-The site does not load external font, analytics, mathematics or diagram scripts. Native navigation remains available if JavaScript is disabled. Colour preference follows the browser/operating system.
+The site loads Google Analytics (measurement ID in `_config.yml` as `google_analytics`; remove that line to switch it off) and no external font, mathematics or diagram scripts. Native navigation remains available if JavaScript is disabled. Colour preference follows the browser/operating system.
 
 ## Hosting
 

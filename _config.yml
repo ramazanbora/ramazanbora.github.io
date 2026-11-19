@@ -8,6 +8,7 @@ baseurl: ""
 repository: ramazanbora/ramazanbora.github.io
 content_updated: 2026-11-20
 cv_pdf: /files/Ramazan_Bora_CV.pdf
+google_analytics: G-PJKZPC7G95
 
 author:
   name: Ramazan Bora
