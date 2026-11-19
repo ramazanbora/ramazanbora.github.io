@@ -8,6 +8,7 @@ Source for [ramazanbora.com](https://ramazanbora.com), hosted by GitHub Pages fr
 - `_pages/research.md` and `_data/research.yml`: job market paper, working papers and work in progress. Research titles, status, summaries and links have a single data source.
 - `_pages/research-*.md`: paper-specific summary pages. Existing URLs are retained.
 - `_pages/cv.md`: concise HTML CV; `files/cv_final.pdf`: current downloadable CV. `files/Ramazan_Bora_CV.pdf` is an identical alias.
+- `files/Bora_JMP.pdf`: the job market paper, published at the author's instruction on 20 November 2026. A paper held on the site is linked through `paper_file` in `_data/research.yml`.
 - `_pages/teaching.html` and `_pages/contact.md`: teaching and current contact details.
 - `_layouts/academic.html`, `assets/css/academic.css`, `assets/js/academic.js`: responsive layout, accessible navigation and styles.
 - `_config.yml`: canonical host, current email, update date, output exclusions and plugins.

@@ -134,6 +134,7 @@ expected_sitemap = {"https://ramazanbora.com" + route for route in expected_rout
 expected_sitemap |= {
     "https://ramazanbora.com/files/cv_final.pdf",
     "https://ramazanbora.com/files/Ramazan_Bora_CV.pdf",
+    "https://ramazanbora.com/files/Bora_JMP.pdf",
 }
 actual_sitemap = {e.text for e in ET.parse(site / "sitemap.xml").findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")}
 if actual_sitemap != expected_sitemap:

@@ -43,7 +43,7 @@ redirect_from:
 {% for paper in site.data.research %}
 <div class="cv-entry">
   <h3>{% if paper.url %}<a href="{{ paper.url | relative_url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
-  <p class="entry-meta">{{ paper.status }}{% if paper.coauthors %} · with {{ paper.coauthors }}{% endif %}</p>
+  <p class="entry-meta">{{ paper.status }}{% if paper.coauthors %} · with {{ paper.coauthors }}{% endif %}{% if paper.paper_file %} · <a href="{{ paper.paper_file | relative_url }}">Paper (PDF)</a>{% elsif paper.paper_url %} · <a href="{{ paper.paper_url }}">Paper (PDF)</a>{% endif %}</p>
 </div>
 {% endfor %}
 

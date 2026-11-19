@@ -121,6 +121,8 @@ strong { font-weight: 650; }
   .footer-inner { padding: 1.2rem; display: block; }
   .footer-inner p + p { margin-top: .35rem; }
   .inner-page .profile { display: none; }
+  .site-body:not(.inner-page) .profile-name { display: none; }
+  .home-content .page-heading { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
   .paper-page h1 { font-size: 1.55rem; line-height: 1.3; }
 }
 @media (max-width: 360px) {

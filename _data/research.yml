@@ -4,7 +4,7 @@
   status: "Job market paper"
   authors: "Ramazan Bora"
   url: /research/hinterland-abstract/
-  request_paper: true
+  paper_file: /files/Bora_JMP.pdf
   summary: "Turkey’s 2012 reform placed thousands of villages under metropolitan governments. I reconstruct village boundaries and link them to satellite night lights and population registers, comparing villages on either side of provincial borders. Villages in newly created metropolitan provinces are about 11% brighter a decade after the reform, and treated villages retain about 10% more of their population."
   paragraphs:
     - "Turkey’s 2012 metropolitan reform created 14 new metropolitan provinces, extended existing metropolitan jurisdictions to provincial borders and abolished village self-government within them. I reconstruct village boundary polygons for thousands of villages and link them to VIIRS night lights, population registers, a daily satellite proxy for power outages and driving times to administrative centres."
@@ -18,10 +18,13 @@
   authors: "Ramazan Bora and Russell Smyth"
   coauthors: "Russell Smyth"
   url: /research/cues-from-below/
-  summary: "We ask whether the judgment of an intermediate appellate court carries cues about the prospects of an application for special leave to appeal to the High Court of Australia, and we study the decision to apply and the decision to grant separately."
+  summary: "We ask whether the judgment of an intermediate appellate court carries cues about an application’s prospects of special leave to appeal to the High Court of Australia. In 43,595 judgments linked to 4,223 applications, each cue we measure is associated with leave being sought and with leave being granted; where a judge dissented below, the grant rate among applications is more than twice as high."
   paragraphs:
-    - "How the High Court exercises its discretion to grant special leave to appeal is widely regarded as unclear. We ask whether dissent, the way a judgment is written, the authorities it cites and the language its judges use carry cues about an application’s prospects."
-    - "We link the judgments of five intermediate appellate courts to special-leave applications and outcomes, so that we can study both the decision to apply and the decision to grant."
+    - "The High Court of Australia grants special leave to appeal in a small fraction of applications, usually gives only brief reasons, and since December 2023 ordinarily decides applications on the papers. Practitioners describe the criteria as opaque. Our framing draws on cue theory from the literature on the United States Supreme Court: a court with limited time looks for cues in the judgment below."
+    - "We built a corpus of 43,595 judgments from five intermediate appellate courts, 2000 to 2026, about 2.86 million paragraphs, and linked it to 4,223 special-leave applications and their outcomes. Starting from all appellate judgments, and not only from applications, lets us separate two decisions that earlier work could not: the litigant’s decision to apply and the Court’s decision to grant. For each judgment we measure dissent on the orders, length, the number and type of authorities cited, and whether a judge said that the question belongs to the High Court or flagged a gap, a conflict or a difficulty in the law."
+    - "Each cue is associated with both decisions. Applications were about twice as frequent where there was a dissent, and 33% of those applications were granted, against 14% where the court below agreed on the orders. An express statement that the issue is one for the High Court appears in only 237 judgments, yet it is among the strongest correlates of a grant when the other cues are held constant."
+    - "The measures were produced with language models. Reading 280 million words with the most capable model would have been unaffordable, so each measure runs as a cascade: a mechanical screen, a low-cost model that extracts or flags, and a stronger model that decides. We cross-checked the dissent classifications against the existing High Court Database, and extending that validation with a human-coded sample across all measures is the next step."
+    - "The corpus was designed as a research base for a programme of work, not as the dataset for one paper: the text is held at paragraph level and linked to citations, applications and outcomes. The paper will be presented at the workshop Accessing Judicial Power in the Australian Political System at the Australian National University in December 2026."
 
 - id: birthplace
   title: "Birthplace Favoritism Revisited: Replication, Modern Evidence, and Crisis Dynamics"

@@ -3,8 +3,10 @@
   <p>{{ paper.authors }}</p>
   <p>{{ paper.status }}</p>
 </div>
+{% if paper.paper_file %}<p><a class="button-link" href="{{ paper.paper_file | relative_url }}">Paper (PDF)</a></p>{% endif %}
 {% for paragraph in paper.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
-{% if paper.paper_url %}
+{% if paper.paper_file %}
+{% elsif paper.paper_url %}
 <p class="paper-links"><a href="{{ paper.paper_url }}">Discussion paper (PDF)</a><a href="{{ paper.record_url }}">RePEc record</a></p>
 {% elsif paper.request_paper %}
 <p class="paper-links"><a href="mailto:{{ site.author.email }}?subject={{ paper.title | url_encode | replace: '+', '%20' }}">Paper available on request</a></p>
